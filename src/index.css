@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.bet-slip-display {
+  outline: 1px solid grey;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  background: #404040;
+}
+
+.bet-slip-display > p {
+  background: #404040;
+  color: white;
+}
+
+.bet-slip-heading {
+  color: white;
+}
+
+.bet-slip-number {
+  background: orange;
+  color: white;
+  padding: 20px;
+}
+
+.item-block {
+  display: inline-block;
+  width: 100px;
+  border: 1px solid grey;
+  padding: 5px;
+}  
+
+.item-block-container {
+  width: 500px;
+  margin: 0 auto;
+}
