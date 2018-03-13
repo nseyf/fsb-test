@@ -6,5 +6,5 @@ To install dependencies:
 To run:
 `npm start`
 
-To build:
+To build for production:
 `npm run build`
